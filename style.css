@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+/*
+```````````````````
+``  random tags  ``    
+```````````````````
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #F7F7F2;
+  font-family:'Manrope', sans-serif;
+}
+
+input {
+  outline: none;
+  text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+footer {
+  color: #B2C5BE;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+/*
+`````````````````
+``  columns :o ``
+`````````````````
+*/
+
+.container_div_item {
+  background-color: #B2C5BE;
+  flex-grow: 1;
+}
+
+#container_div {
+  padding-left: 0.1%;
+  padding-bottom: 10vh;
+  display: none;
+  flex-direction: row;
+  transform: rotate(180deg) scaleX(-1);
+}
+
+/*
+`````````````````````````````````````````````
+`` generate screens [generate, generating] ``
+`````````````````````````````````````````````
+*/
+
+.container_generate {
+  color: #B2C5BE;
+  padding: 10% 0;
+  text-align: center;
+}
+
+#container_generate_input {
+  display: none;
+}
+
+.container_generate_content {
+  padding: 10% 0;
+}
+
+#input_go {
+  color: #B2C5BE;
+  text-decoration: none;
+}
+
+/*
+`````````````````````
+`` Nav bar classes ``
+`````````````````````
+*/
+
+.container_nav {
+  background-color: #3D4753;
+  border-bottom: #636366 solid 7px;
+  overflow: hidden;
+}
+
+.container_nav a {
+  float: left;
+  color: #F7F7F2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.container_nav a:hover {
+  background-color: #636366;
+  color: #B2C5BE;
+}
+
+.container_nav a img {
+  width: 73%;
+}
+
+#nav_sort {
+  display: none;
+}

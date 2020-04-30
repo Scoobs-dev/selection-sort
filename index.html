@@ -1,0 +1,49 @@
+<html>
+  <!-- HEADER -->
+  <head>
+    <title>Selection Sort : Scoobs</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <div class="container_nav">
+      <a href="https://github.com/Scoobs-dev"><img src="github.png" alt=""></a>
+      <a id="nav_generate"href="javascript:columns_input()">Generate</a>
+      <a id="nav_sort" href="javascript:selection_sort()">Sort</a>
+    </div>
+
+    <!-- COLUMNS -->
+    <div id="container_div">
+    </div>
+
+    <!-- GENERATE -->
+    <span id="container_generate_info">
+      <div class="container_generate">
+        <div class="container_generate_content">
+          <h3>Generate</h3>
+          <p>Click the generate button to generate random columns.</p>
+        </div>
+      </div>
+    </span>
+
+    <!-- GENERATING -->
+    <span id="container_generate_input">
+      <div class="container_generate">
+        <div class="container_generate_content">
+          <h3>Generating...</h3>
+          <p style="padding-bottom: 2vh;">Enter the number of columns to generate below then press go.</p>
+          <input type="number" name="cols" id="columns_input">
+          <br><br>
+          <a id="input_go" href="javascript:generate_columns()">GO</a>
+        </div>
+      </div>
+    </span>
+
+    <!-- FOOTER -->
+    <pre><footer>&copy;-2020 : Scoobs</footer></pre>
+
+  </body>
+
+  <!-- SCRIPT -->
+  <script src="script.js"></script>
+</html>
